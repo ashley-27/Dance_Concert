@@ -1,9 +1,3 @@
-/*
-This program draws a starry sky with stars that twinkle. It also includes 
-randomly occuring shooting stars.
-Author: Charlie McDowell
-*/
-
 // the twinlking star locations
 int[] starX = new int[1000];
 int[] starY = new int[1000];
