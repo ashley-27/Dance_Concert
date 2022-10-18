@@ -1,4 +1,3 @@
-//thanks Mr. J
 int MAX_WEIGHT = 10;
 ArrayList<Star> stars = new ArrayList<Star>();
 PVector direction;
