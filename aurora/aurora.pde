@@ -26,7 +26,7 @@ int camIndex=0;
 
 
 void setup() {
-  size(600, 600, P3D);
+  fullScreen(P3D);
 
   cam = new PeasyCam(this, 1000);
   camRZ=camRots[camIndex].z;
@@ -41,7 +41,8 @@ void setup() {
   for(int i=0; i<MAX_STARS; i++){
     stars[i] = newStar();
   }
-
+  
+  background(0,29,121);
   colorMode(HSB, 255);
   noStroke();
 
